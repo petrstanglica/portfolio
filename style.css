@@ -89,7 +89,7 @@ p {
 }
 
 footer {
-  text-align: center; /* Align the text to the right in the footer */
+  text-align: center;
   padding: 10px;
   background-color: #7e8d85;
   color: #fff;
@@ -111,7 +111,7 @@ footer {
 }
 
 .photos img {
-  width: 30%; /* Adjust the width as needed */
+  width: 30%;
   max-width: 100%;
   height: auto;
   border-radius: 15px;
@@ -127,7 +127,7 @@ footer {
 }
 
 .certification-photos img {
-  width: 25%; /* Adjust the width as needed */
+  width: 25%;
   max-width: 100%;
   height: auto;
   border-radius: 15px;
