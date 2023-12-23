@@ -1,0 +1,156 @@
+body {
+  font-family: "Chivo Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f7f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-left: 100px;
+  margin-right: 100px;
+  flex: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #7e8d85;
+  color: #fff;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+ul li {
+  margin-left: 10px;
+}
+
+ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.outer-h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.main {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main img {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+p {
+  margin: 0;
+  flex: 1;
+}
+
+.main-videos {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-videos h2 {
+  margin-bottom: 10px;
+}
+
+.main-videos iframe {
+  max-width: 100%;
+}
+
+footer {
+  text-align: center; /* Align the text to the right in the footer */
+  padding: 10px;
+  background-color: #7e8d85;
+  color: #fff;
+}
+.nadpis1 {
+  padding-left: 92px;
+}
+.navbar {
+  padding-right: 92px;
+  word-spacing: 20px;
+}
+
+/*znalosti.css */
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.photos img {
+  width: 30%; /* Adjust the width as needed */
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+}
+
+/*certifikace.css */
+
+.certification-photos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.certification-photos img {
+  width: 25%; /* Adjust the width as needed */
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+}
+
+/*kontakt.css*/
+
+.contact-box {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
